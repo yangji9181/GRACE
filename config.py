@@ -41,7 +41,7 @@ def parse_args():
 	parser.add_argument('--epoch', type=int, default=1, help=None)
 	parser.add_argument('--step', type=int, default=1, help=None)
 	parser.add_argument('--epsilon', type=float, default=1.0, help='Annealing hyperparameter for cluster assignment')
-	parser.add_argument('--dataset', type=str, default='pubmed', help=None)
+	parser.add_argument('--dataset', type=str, default='cora', help=None)
 	parser.add_argument('--dense_graph', type=bool, default=True, help='Set to True when using large graph')
 	return parser.parse_args()
 
