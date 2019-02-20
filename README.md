@@ -1,5 +1,5 @@
 # GRACE
-Full implementation of 'Graph Clustering with Embedding Propagation' with TensorFlow.
+Full implementation of `Graph Clustering with Embedding Propagation` with TensorFlow and python 2.
 
 Use the command `python experiment.py` to run the code.
 
